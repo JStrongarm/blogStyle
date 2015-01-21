@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: url("https://ununsplash.imgix.net/uploads/1413259835094dcdeb9d3/6e609595?fit=crop&fm=jpg&h=700&q=75&w=1050");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+section {
+  max-width: 700px;
+  margin: 80px auto 30px auto;
+  background: white;
+}
+
+.content {
+  width: 85%;
+  height: 85%;
+  padding-top: 40px;
+  margin: 0 auto;
+  position: relative;
+}
+
+h1 {
+  font-size: 30pt;
+  font-family: "Helvetica";
+  font-weight: 200;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 14pt;
+  font-family: "Helvetica";
+  font-weight: 200;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 12pt;
+  font-family: "Garamond";
+  font-weight: 100;
+  line-height: 24pt;
+}
+
+p:nth-child(3){
+  margin-top: 30pt;
+}
+
+p:last-child {
+  margin-bottom: 35px;
+}
+
+blockquote {
+  margin: 30px 0;
+  font-size: 20pt;
+  font-family: "Helvetica";
+  font-weight: 100;
+  text-indent: 10px;
+  border-left: 2px solid;
+}
+
+.postImage {
+  width: 85%;
+  margin: 15px auto;
+  display: block;
+}
+
+section footer{
+  max-width: 100%;
+  height: 300px;
+  margin-top: 30px;
+  background: red;
+  position: relative;
+  bottom: 0;
+}
+
